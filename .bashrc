@@ -119,6 +119,7 @@ fi
 #python alias for python3
 alias python='python3'
 alias pip='pip3'
+alias cd='cd $@ && ls'
 
 # spotify credentials
 export SPOTIPY_CLIENT_ID='416eee060c514e6e8eab3b8d1c5c010c'
