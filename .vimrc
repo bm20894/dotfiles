@@ -43,3 +43,4 @@ set smartcase
 " Airline
 let g:airline_theme='tomorrow'
 let g:airline_powerline_fonts=1
+" background hex: #212121

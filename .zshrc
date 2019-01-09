@@ -103,6 +103,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias python=python3
 alias cls=clear
+alias pip=pip3
 
 # Base16 Shell
 # BASE16_SHELL="$HOME/.config/base16-shell/"

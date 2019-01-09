@@ -87,6 +87,8 @@ fi
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
+set -o vi
+
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
@@ -151,3 +153,4 @@ export EMAIL_PASS='mcpasdservice123'
 # Homework app config
 export HW_SECRET_KEY='e26a0e73391046125e0401873365f7fa'
 export SQLALCHEMY_DATABASE_URI='sqlite:///site.db'
+
