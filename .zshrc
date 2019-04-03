@@ -8,8 +8,8 @@
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
-# cloud is good too
+ZSH_THEME="cloud"
+# cloud and lambda are good too
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -110,3 +110,17 @@ alias pip=pip3
 # [ -n "$PS1" ] && \
     # [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
         # eval "$("$BASE16_SHELL/profile_helper.sh")"
+
+
+alias ngrok=/home/miles/ngrok
+
+# spotify credentials
+export SPOTIPY_CLIENT_ID='416eee060c514e6e8eab3b8d1c5c010c'
+export SPOTIPY_CLIENT_SECRET='09fa0c2977a44f45b5c174324fef2b72'
+export SPOTIPY_REDIRECT_URI='https://127.0.0.1:5000/callback/q'
+
+export DISCORD_CRED='NTU0MDk5NDA1NjE2MDU0Mjkw.D2Xv9A.HXB2BNinfpi_e08gRnfPexBgpbI'
+
+# GOPATH
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin

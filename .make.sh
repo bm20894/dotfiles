@@ -3,7 +3,7 @@
 
 dir=~/dotfiles
 old_dir=~/dotfiles_old
-files=".zshrc .tmux.conf .vimrc"
+files=".zshrc .tmux.conf .vimrc .bashrc"
 
 echo "Creating $old_dir backup for existing dotfiles in ~"
 mkdir -p $old_dir
