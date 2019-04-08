@@ -54,6 +54,7 @@ let g:airline_powerline_fonts=1
 
 " vim-go
 set autowrite
+let g:go_version_warning = 0
 
 " run :GoBuild or :GoTestCompile based on the go file
 function! s:build_go_files()

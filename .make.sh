@@ -1,8 +1,8 @@
 #!/bin/bash
 # This script creates sym links in home directory for dotfiles
 
-dir=~/dotfiles
-old_dir=~/dotfiles_old
+dir=~/.dotfiles
+old_dir=~/.dotfiles_old
 files=".zshrc .tmux.conf .vimrc .bashrc"
 
 echo "Creating $old_dir backup for existing dotfiles in ~"
