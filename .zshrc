@@ -104,6 +104,7 @@ source $ZSH/oh-my-zsh.sh
 alias python=python3
 alias cls=clear
 alias pip=pip3
+alias vi=nvim
 
 # Base16 Shell
 # BASE16_SHELL="$HOME/.config/base16-shell/"
